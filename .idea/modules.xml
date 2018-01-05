@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/RobotFrame/RobotFrame.iml" filepath="$PROJECT_DIR$/RobotFrame/RobotFrame.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tobot.iml" filepath="$PROJECT_DIR$/Tobot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tobot/tobot.iml" filepath="$PROJECT_DIR$/tobot/tobot.iml" />
+    </modules>
+  </component>
+</project>

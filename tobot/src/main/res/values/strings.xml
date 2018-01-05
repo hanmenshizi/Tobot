@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">tobot</string>
+    <string name="title_activity_base">BaseActivity</string>
+    <string name="title_activity_awaken">AwakenActivity</string>
+    <string name="Connection_First">机器人首次使用中,还未连接网络,请下载客户端根据说明帮我连接网络</string>
+    <string name="Connection_Fail">网络连接失败,请重新连接</string>
+    <string name="Connection_Succeed">网络连接成功,小图可以陪你聊天了</string>
+    <string name="Connection_Start">您已启动联网模式,请帮我重新联网或长摸头三秒解除联网模式</string>
+    <string name="Connection_Wait">联网中,请稍等</string>
+    <string name="Connection_Break">糟糕!网络离家出走,快帮我联上吧</string>
+    <string name="Connection_Break_Hint">"网络断了,小图在努力恢复中,小主人也可以长摸头帮我换个新网络</string>
+    <string name="Connection_Close">您已关闭联网模式</string>
+    <string name="Connection_Recover">网络已恢复连接</string>
+
+    <string name="Mend_Error">如果你能改正错误,我们还是好朋友</string>
+
+    <string name="voice0">小子,你再摸下试试</string>
+    <string name="voice1">嘿,小子,你再摸,小心我揍你</string>
+    <string name="voice2">能不能别老摸我</string>
+    <string name="voice3">臭小子,我已经忍你很久了</string>
+    <string name="voice4">可以跟我聊天,不要乱摸头</string>
+    <string name="voice5">小子,你摸爽了没有</string>
+    <string name="voice6">你再摸,我要发飙了</string>
+    <string name="voice7">还摸,看你的意思是想打架喽</string>
+    <string name="voice8">摸人家头是很不礼貌的</string>
+    <string name="voice9">找俺啥事</string>
+
+    <!-- 声音提示语句   -->
+    <string name="raiseMusicVolume">好的 ，我声音大点</string>
+    <string name="lowerMusicVolume">嗯，我小声点</string>
+    <string name="minMusicVolume">已经是最小声了哦</string>
+    <string name="maxMusicVolume">已经是最大声了哦</string>
+
+    <!-- 音乐场景 提示语句   -->
+    <string name="noExistMusic">抱歉，这首歌我暂时不会唱，要不你换一首吧</string>
+    <string name="beforePlayMusic">即将播放</string>
+
+    <!-- 故事场景 提示语句   -->
+    <string name="noExistStory">抱歉，我暂时不会讲这个故事，要不你换一个吧</string>
+    <string name="beforePlayStory">即将播报故事</string>
+
+    <!-- 舞蹈场景 提示语句   -->
+    <string name="noExistDance">抱歉，我暂时不会这个表演，要不你换一个吧</string>
+    <string name="beforePlayDance">即将表演</string>
+
+
+
+
+    <string name="app_key">368b04b9925de143809fe8e0592c9101</string>
+    <string name="app_secret">5986e3dca32b626d8e4c70f73b8ded01</string>
+    <string name="package_id">com.tobot.tobot</string>
+</resources>

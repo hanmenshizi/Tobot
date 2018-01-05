@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tobot.tobot.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/llzh"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:visibility="gone">
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:text="账号：" />
+
+        <EditText
+            android:id="@+id/ed_account"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="请输入账号"
+            android:background="@null"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llmm"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:layout_below="@+id/llzh"
+        android:visibility="gone" >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:text="密碼：" />
+
+        <EditText
+            android:id="@+id/ed_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/textView"
+            android:hint="请输入密碼"
+            android:background="@null"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_conn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/llmm"
+        android:layout_centerHorizontal="true"
+        android:text="AP联网"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/btn_close"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_conn"
+        android:layout_centerHorizontal="true"
+        android:text="关闭AP联网"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/tvConnResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_close"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/tvASR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvConnResult"
+        android:textSize="15sp"/>
+
+    <EditText
+        android:id="@+id/etphone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvASR"
+        android:textSize="20dp"
+        android:hint="请输入绑定号码:"/>
+
+    <LinearLayout
+        android:id="@+id/llayou"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etphone"
+        android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/btn_shutdown1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="测试"/>
+
+        <Button
+            android:id="@+id/btn_shutdown2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="执行" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/im_picture"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@+id/llayou"
+        android:visibility="gone"/>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/llayou"
+        android:id="@+id/frameLayout">
+
+        <com.tobot.tobot.utils.photograph.CameraSurfaceView
+            android:id="@+id/camera_surfaceview"
+            android:layout_width="0dip"
+            android:layout_height="0dip" />
+    </FrameLayout>
+
+</RelativeLayout>
